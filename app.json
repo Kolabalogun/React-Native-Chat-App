@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "KChatApp",
+    "slug": "KChatApp",
+    "version": "1.0.0",
+    "owner": "ibrahimdevv",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/cc.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f0f8ff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+   
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cc.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ibrahimdevv.KChatApp"
+    },
+    "web": {
+      "favicon": "./assets/cc.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    
+    "description": "Chat Application"
+  }
+}
